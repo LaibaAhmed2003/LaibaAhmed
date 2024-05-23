@@ -1,0 +1,122 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    height: 100vh;
+}
+.img-container{
+    width: 400px;
+    height: 400px;
+}
+.img-container .butter{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 250px;
+    height: 250px;
+    background-color: transparent; 
+    animation: rotateUpDown 2s linear infinite alternate;
+}
+@keyframes zoom {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.2); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+.img-container .profilepic{
+   border: 3px solid white;
+   border-radius: 50%;
+}
+.text-container{
+    width: 400px;
+    height: 400px;
+}
+.text-container h2{
+    font-size: 40px;
+    color: yellow;
+}
+.text-container .description{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.inner-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.inner-box .inner-1{
+    border: 1px solid rgb(240, 240, 13);
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inner-box .inner-1 h3{
+    font-size: 25px;
+}
+
+
+@media(min-width:300px) and (max-width:500px){
+    .about-container{
+        width: fit-content;
+        padding: 10px 45px;
+        height: 140vh;
+        display: flex;
+        align-items: flex-start;
+    }
+    .img-container{
+        width: 200px;
+        height: 200px;
+    }
+    .profilepic{
+        width: 200px;
+        height: 200px;
+    }
+   
+    .img-container .butter{
+        position: absolute;
+        top: -40px;
+        left: 21px;
+        width: 100px;
+        height: 100px;
+        background-color: transparent; 
+        animation: rotateUpDown 2s linear infinite alternate;
+    }
+    .text-container{
+        width: 450px;
+        height: 500px;
+    }
+    .text-container h2{
+        font-size: 60px;
+        color: yellow;
+    }
+    .text-container .description{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .inner-box{
+        margin-top: 30px;
+    }
+    .inner-box .inner-1{
+        border: 3px solid rgb(240, 240, 13);
+        width: 200px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .inner-box .inner-1 h3{
+        font-size: 35px;
+    }
+}
+
+

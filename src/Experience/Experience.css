@@ -1,0 +1,78 @@
+.Experience-container{
+    padding: 10px 0px;
+    padding-bottom: 100px;
+}
+.Experience-container h2{
+    color: yellow;
+    font-size: 40px;
+    padding: 20px 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Experience-container .inner-exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.exp{
+    border: 1px solid white;
+    padding: 20px 40px;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exp:hover{
+    border: 1px solid yellow;
+}
+
+.exp h3{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(220, 221, 222);
+    padding-bottom: 20px;
+}
+.exp:hover h3{
+    color: yellow;
+}
+.exp .languages{
+    /* display: inline; */
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 50px;
+   flex-wrap: wrap;
+}
+.lang{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.lang .name p{
+    color: rgb(202, 201, 201);
+}
+
+@media(min-width:300px) and (max-width:500px){
+    .Experience-container{
+        width: 184%;
+        padding: 0px 50px;
+    }
+    .exp{
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .exp .languages{
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: space-evenly;
+       gap: 30px;
+       flex-wrap: wrap;
+       padding-bottom: 0;
+    }
+}

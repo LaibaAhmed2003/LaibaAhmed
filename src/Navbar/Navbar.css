@@ -1,0 +1,81 @@
+/* Navbar css here */
+
+.Navbar-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-family: "Bricolage Grotesque", sans-serif;
+    padding: 0px 30px;
+    gap: 160px;
+  }
+  .left-container img {
+    width: 70px;
+    height: 70px;
+  } 
+  .navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    list-style: none;
+  }
+  .navlinks .link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+  } 
+  .connectbtn {
+    padding: 12px 16px;
+    border-radius: 20px;
+    /* border: none; */
+    /* background: linear-gradient(to right, rgb(243, 243, 10), orange); */
+    border: 2px solid yellow;
+    cursor: pointer;
+  }
+  .menu-icon {
+    display: none; 
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .Navbar-container{
+     padding: 0px 10px;
+     width: 150%;
+    }
+    .left-container img {
+      width: 217px;
+      height: 121px;
+  }
+  .menu-icon{
+    font-size: 40px;
+  }
+    .navlinks {
+      display: none; 
+    }
+  
+    .menu-icon {
+      display: block; 
+    }
+  
+    .active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 209%;
+      background-color: black;
+      z-index: 1000;
+      height: 161%;
+  }
+    .active .link {
+      padding: 15px 0; 
+    }
+    .connectbtn{
+        display: none;
+    }
+  }
+  
