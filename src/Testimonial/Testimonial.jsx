@@ -102,13 +102,25 @@ const Testimonial = () => {
             style={{ display: selectedTestimonial === 1 ? "block" : "none" }}
           >
             <h3>It was a fantastic experience!</h3>
-            <div className="stars">
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
+
+            <div class="stars">
+              <span className="yellow-star" data-value="5">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="4">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="3">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="2">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="1">
+                &#9733;
+              </span>
             </div>
+
             <p>
               "Laiba didn't just create a website for me, she crafted a digital
               sanctuary where souls seeking reinvention can find solace and
@@ -128,12 +140,22 @@ const Testimonial = () => {
             style={{ display: selectedTestimonial === 2 ? "block" : "none" }}
           >
             <h3>It was a great experience!</h3>
-            <div className="stars">
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
+            <div class="stars">
+              <span className="yellow-star" data-value="5">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="4">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="3">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="2">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="1">
+                &#9733;
+              </span>
             </div>
             <p>
               "I'm thrilled to share my gratitude for Laiba, the genius behind
@@ -150,12 +172,22 @@ const Testimonial = () => {
             style={{ display: selectedTestimonial === 3 ? "block" : "none" }}
           >
             <h3>It was a amazing experience!</h3>
-            <div className="stars">
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
+            <div class="stars">
+              <span className="yellow-star" data-value="5">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="4">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="3">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="2">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="1">
+                &#9733;
+              </span>
             </div>
             <p>
               "I couldn't be happier with the website Laiba created for my
@@ -172,12 +204,22 @@ const Testimonial = () => {
             style={{ display: selectedTestimonial === 4 ? "block" : "none" }}
           >
             <h3>It was a great experience!</h3>
-            <div className="stars">
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
+            <div class="stars">
+              <span className="yellow-star" data-value="5">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="4">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="3">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="2">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="1">
+                &#9733;
+              </span>
             </div>
             <p>
               "I just have to express my heartfelt thanks to Laiba for her
@@ -195,12 +237,22 @@ const Testimonial = () => {
             style={{ display: selectedTestimonial === 5 ? "block" : "none" }}
           >
             <h3>It was a great experience!</h3>
-            <div className="stars">
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
-              <FontAwesomeIcon icon={faStar} className="yellow-star" />
+            <div class="stars">
+              <span className="yellow-star" data-value="5">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="4">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="3">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="2">
+                &#9733;
+              </span>
+              <span className="yellow-star" data-value="1">
+                &#9733;
+              </span>
             </div>
             <p>
               "I've got to give a massive shoutout to Laiba for her incredible

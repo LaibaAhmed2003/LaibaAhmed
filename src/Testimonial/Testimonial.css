@@ -64,10 +64,16 @@
 }
 .client-testimonial h3{
     font-size: 20px;
+    margin-bottom: 10px;
+}
+.stars{
+    margin-bottom: 10px;
 }
 .yellow-star {
     color: #EFCC18; /* Change the color of the star to #EFCC18 */
     padding: 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
 }
 /* Testimonial.css */
 
