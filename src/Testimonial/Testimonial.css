@@ -93,6 +93,15 @@
     height: 50vh;
     padding: 10px;
   }
+  .client-testimonial h3{
+    font-size: 25px;
+    font-style: italic;
+  }
+  .client-testimonial p{
+    font-size: 25px;
+    font-style: italic;
+
+  }
 
   @media(min-width:300px) and (max-width:500px){
     .Testimonial-container{
