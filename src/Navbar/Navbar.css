@@ -6,8 +6,11 @@
     align-items: center;
     justify-content: space-evenly; 
     font-family: "Bricolage Grotesque", sans-serif;
-    padding: 0px 30px;
-    gap: 160px;
+    padding: 0px 140px 0px 190px;
+    gap: 190px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
   }
   .left-container img {
     width: 70px;
@@ -30,7 +33,7 @@
     border-radius: 20px;
     /* border: none; */
     /* background: linear-gradient(to right, rgb(243, 243, 10), orange); */
-    border: 2px solid yellow;
+    border: 2px solid #EFCC18;
     cursor: pointer;
   }
   .menu-icon {
@@ -42,12 +45,12 @@
   
   @media (max-width: 768px) {
     .Navbar-container{
-     padding: 0px 10px;
-     width: 150%;
+     padding: 0px;
+     width: 90%;
     }
     .left-container img {
-      width: 217px;
-      height: 121px;
+      width: 210px;
+      height: 110px;
   }
   .menu-icon{
     font-size: 40px;
@@ -60,7 +63,7 @@
       display: block; 
     }
   
-    .active {
+    .active{
       display: flex;
       flex-direction: column;
       position: absolute;

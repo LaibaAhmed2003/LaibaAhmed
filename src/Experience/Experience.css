@@ -3,7 +3,7 @@
     padding-bottom: 100px;
 }
 .Experience-container h2{
-    color: yellow;
+    color: #EFCC18;
     font-size: 40px;
     padding: 20px 0px;
     text-align: center;
@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 .exp:hover{
-    border: 1px solid yellow;
+    border: 1px solid #EFCC18;
 }
 
 .exp h3{
@@ -34,7 +34,7 @@
     padding-bottom: 20px;
 }
 .exp:hover h3{
-    color: yellow;
+    color: #EFCC18;
 }
 .exp .languages{
     /* display: inline; */

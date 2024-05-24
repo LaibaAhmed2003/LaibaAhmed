@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className={showMenu ? "navlinks active" : "navlinks"}>
           <Link
             activeClass="active"
-            to="home"
+            to="hero"
             spy={true}
             smooth={true}
             offset={-70}
@@ -63,7 +63,17 @@ const Navbar = () => {
           >
             Portfolio
           </Link>
-
+          <Link
+            activeClass="active"
+            to="testimonial-con"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="link"
+          >
+            Testimonial
+          </Link>
           <Link
             activeClass="active"
             to="contact"

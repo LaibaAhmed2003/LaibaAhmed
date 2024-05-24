@@ -1,0 +1,19 @@
+.copy-container{
+    text-align: center;
+    background-color: #EFCC18;
+    margin-top: 80px;
+    padding: 20px;
+}
+.copy-container p{
+    background-color: transparent;
+}
+
+@media(min-width:300px) and (max-width:500px){
+    .copy-container{
+    text-align: center;
+    background-color: #EFCC18;
+    margin-top: 80px;
+    padding: 20px;
+    width: 216%;
+    }
+}

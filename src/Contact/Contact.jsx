@@ -1,5 +1,7 @@
-import footerimg from "../media/footerimg.png";
+import footerimg from "../media/footerimage.png";
 import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact, faFigma } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -12,10 +14,15 @@ const Contact = () => {
             {" "}
             Book Meeting Now!
           </a>
+          {/* <FontAwesomeIcon icon={faReact} className="react-icon" /> */}
         </button>
       </div>
       <div className="contact-img">
         <img src={footerimg} alt="footer-img" />
+        <div className="icons">
+          {/* <FontAwesomeIcon icon={faReact} className="react-icon" /> */}
+          <FontAwesomeIcon icon={faFigma} className="figma-icon" />
+        </div>
       </div>
     </div>
   );

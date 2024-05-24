@@ -5,6 +5,7 @@
     gap: 50px;
     position: relative;
     height: 100vh;
+    padding: 17px 300px;
 }
 .img-container{
     width: 400px;
@@ -12,10 +13,10 @@
 }
 .img-container .butter{
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 250px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: transparent; 
     animation: rotateUpDown 2s linear infinite alternate;
 }
@@ -40,7 +41,7 @@
 }
 .text-container h2{
     font-size: 40px;
-    color: yellow;
+    color: #EFCC18;
 }
 .text-container .description{
     margin-top: 10px;
@@ -48,14 +49,14 @@
 }
 .inner-box{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     gap: 30px;
     margin-top: 20px;
     text-align: center;
 }
 .inner-box .inner-1{
-    border: 1px solid rgb(240, 240, 13);
+    border: 1px solid #EFCC18;
     width: 200px;
     height: 60px;
     padding: 10px;
@@ -98,7 +99,7 @@
     }
     .text-container h2{
         font-size: 60px;
-        color: yellow;
+        color: #EFCC18;
     }
     .text-container .description{
         margin-top: 10px;
@@ -108,7 +109,7 @@
         margin-top: 30px;
     }
     .inner-box .inner-1{
-        border: 3px solid rgb(240, 240, 13);
+        border: 3px solid #EFCC18;
         width: 200px;
         height: 60px;
         padding: 10px;

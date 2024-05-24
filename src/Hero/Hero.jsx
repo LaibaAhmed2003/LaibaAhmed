@@ -14,7 +14,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <>
-      <div className="hero-container">
+      <div className="hero-container" id="hero">
         <div className="image-container">
           <img src={profile} alt="profile-image" className="prof-img" />
         </div>
