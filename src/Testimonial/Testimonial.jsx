@@ -2,6 +2,12 @@ import { useState } from "react"; // Import useState hook
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import laiba from "../media/profile.jpeg";
+import laura from "../media/laura.jpg";
+import Jennifer from "../media/jennifer.jpg";
+import Michelle from "../media/Michelle.jpg";
+import Neha from "../media/Neha.jpg";
+import karl from "../media/karl.png";
+
 import "./Testimonial.css";
 
 const Testimonial = () => {
@@ -26,7 +32,7 @@ const Testimonial = () => {
             onClick={() => handleTestimonialClick(1)}
           >
             <div className="client-info">
-              <img src={laiba} alt="" />
+              <img src={laura} alt="" />
               <div className="clientname">
                 <h4>Laura Enzor</h4>
                 <p>Soul Reinvension coach</p>
@@ -42,7 +48,7 @@ const Testimonial = () => {
             onClick={() => handleTestimonialClick(2)}
           >
             <div className="client-info">
-              <img src={laiba} alt="" />
+              <img src={Michelle} alt="" />
               <div className="clientname">
                 <h4>Michelle Flynn</h4>
                 <p>Mindset & Health Coach</p>
@@ -58,7 +64,7 @@ const Testimonial = () => {
             onClick={() => handleTestimonialClick(3)}
           >
             <div className="client-info">
-              <img src={laiba} alt="" />
+              <img src={Neha} alt="" />
               <div className="clientname">
                 <h4>Neha Menahil</h4>
                 <p>Linkedin Lead expert</p>
@@ -73,7 +79,7 @@ const Testimonial = () => {
             onClick={() => handleTestimonialClick(4)}
           >
             <div className="client-info">
-              <img src={laiba} alt="" />
+              <img src={Jennifer} alt="" />
               <div className="clientname">
                 <h4>Jennifer Barnett</h4>
                 <p>Breathwork Trainer</p>
@@ -88,7 +94,7 @@ const Testimonial = () => {
             onClick={() => handleTestimonialClick(5)}
           >
             <div className="client-info">
-              <img src={laiba} alt="" />
+              <img src={karl} alt="" />
               <div className="clientname">
                 <h4>Karl Hall</h4>
                 <p>Fitness Trainer</p>
