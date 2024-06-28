@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Laura from "../media/lauraimg.png";
 import UBX from "../media/UBX.png";
-import woollo from "../media/woolloomooloo.png";
+import Nalu from "../media/Nalu.png";
 import EvolveByte from "../media/Evolvebyte.png";
 import Neha from "../media/Nehamenahil.png";
 import Nmtechedge from "../media/Nmtechedge.png";
@@ -68,9 +68,16 @@ const Projects = () => {
         </div>
 
         <div className="project1">
-          <img src={woollo} alt="" />
-          <h4>Woolloomooloo Restaurant</h4>
-          <p>Food</p>
+          <img src={Nalu} alt="" />
+          <a
+            href="https://www.nalubreathwork.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4>Nalu Breathwork</h4>
+          </a>
+
+          <p>Jennifer Barnett</p>
           <div className="skills-git">
             <div className="part1">
               <FontAwesomeIcon icon={faReact} className="fontawesome" />
