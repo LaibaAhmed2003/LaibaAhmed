@@ -48,6 +48,8 @@ textarea {
 .contact-content h3{
     font-size: 60px;
     color: #EFCC18;
+    font-family: 'WorkSans', sans-serif;
+    font-weight: 800;
 }
 
 .contact-content{
