@@ -3,6 +3,7 @@ import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import CalendlySection from "./Calendly.jsx";
 
 const Contact = () => {
   return (
@@ -10,15 +11,15 @@ const Contact = () => {
       <div className="contact-content">
         <h3>Let's Chat</h3>
         <p>I would love to learn about your project.</p>
-
-        <div className="contact-inner">
+        <CalendlySection />
+        {/* <div className="contact-inner">
           <p>
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
           </p>
           <p>
             <FontAwesomeIcon icon={faLinkedinIn} className="contact-icon" />
           </p>
-          <button>
+           <button>
             <a
               href="https://calendly.com/laiba-sabahat9/15-min"
               target="_blank"
@@ -26,12 +27,12 @@ const Contact = () => {
             >
               Book Meeting Now!
             </a>
-          </button>
-        </div>
+          </button> 
+        </div> */}
       </div>
-      <div className="contact-img">
+      {/* <div className="contact-img">
         <img src={footerimg} alt="footer-img" />
-      </div>
+      </div> */}
     </div>
   );
 };

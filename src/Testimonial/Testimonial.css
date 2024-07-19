@@ -1,30 +1,34 @@
-
-.Testimonial-container{
-   padding: 100px 180px;
+.Testimonial-container {
+    padding: 100px 180px;
 }
-.Testimonial-container h2{
+
+.Testimonial-container h2 {
     color: #EFCC18;
     font-size: 40px;
 }
-.innertest-container{
+
+.innertest-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.innertext-test{
+
+.innertext-test {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.testimonial1, .testimonial2, .testimonial3, .testimonial4, .testimonial5{
+
+.testimonial1, .testimonial2, .testimonial3, .testimonial4, .testimonial5 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 20px 10px 5px 0px;
 }
- .client-info{
+
+.client-info {
     width: 270px;
     background-color: rgb(192, 192, 192);
     display: flex;
@@ -35,106 +39,144 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.client-info img{
+
+.client-info img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.client-info .clientname{
+
+.client-info .clientname {
     background-color: transparent;
 }
-.clientname h4{
+
+.clientname h4 {
     font-size: 16px;
     color: black;
     background-color: transparent;
-    
 }
-.clientname p{
+
+.clientname p {
     font-size: 14px;
     color: rgb(114, 114, 114);
     background-color: transparent;
-    
 }
-.client-testimonial{
+
+.client-testimonial {
     width: 700px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 30px;
 }
-.client-testimonial h3{
+
+.client-testimonial h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.stars{
+
+.stars {
     margin-bottom: 10px;
 }
+
 .yellow-star {
-    color: #EFCC18; /* Change the color of the star to #EFCC18 */
+    color: #EFCC18;
     padding: 10px 0px;
     font-size: 30px;
     font-weight: bold;
 }
-/* Testimonial.css */
 
-/* Other CSS styles */
-
-/* .testimonial.active {
-    box-shadow: 0px 0px 10px rgba(100, 235, 120, 0.954); 
-  } */
-  
-  /* Other CSS styles */
-
-  /* .client-info {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-  } */
-  .testimonial.active .client-info {
+.testimonial.active .client-info {
     box-shadow: 1px 1px 19px rgba(237, 236, 230, 0.352);
     background-color: white;
-  }
+}
 
-  .text-container{
-    /* background-color: rgb(255, 255, 255); */
+.text-container {
     width: 65%;
     height: 50vh;
     padding: 10px;
-  }
-  .client-testimonial h3{
+}
+
+.client-testimonial h3 {
     font-size: 25px;
     font-style: italic;
-  }
-  .client-testimonial p{
+}
+
+.client-testimonial p {
     font-size: 25px;
     font-style: italic;
+}
 
-  }
-
-  @media(min-width:300px) and (max-width:500px){
-    .Testimonial-container{
-        width: 50%;
-        padding: 60px;
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .Testimonial-container {
+        padding: 50px 20px;
         margin: 0;
-        height: 100vh;
     }
-    .client-info{
-        width: 220px;
-    }
-    .innertext-test{
-        display: flex;
+
+    .innertest-container {
         flex-direction: column;
-        flex-wrap: wrap;
+        align-items: center;
     }
-    .Testimonial-container .text-container{
-        width: 200px;
-        margin-left: 196px;
+
+    .innertext-test {
+        width: 100%;
+        align-items: center;
     }
-    .client-testimonial{
-        width: 400px;
+
+    .testimonial1, .testimonial2, .testimonial3, .testimonial4, .testimonial5 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
     }
-    .client-testimonial p{
-        font-size: 20px;
+
+    .client-info {
+        width: 100%;
+        max-width: 300px;
     }
-    .active{
+
+    .text-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .client-testimonial {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .client-testimonial p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Testimonial-container {
+        padding: 30px 10px;
+    }
+    .Testimonial-container h2{
+        margin-left: 60px;
+    }
+    .client-info {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .client-testimonial {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .client-testimonial p {
+        font-size: 16px;
+    }
+
+    .active {
         position: static;
     }
-  }
+}

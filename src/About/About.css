@@ -1,4 +1,4 @@
-.about-container{
+ .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,47 +7,43 @@
     height: 100vh;
     padding: 17px 300px;
 }
-.img-container{
+
+.img-container {
     width: 400px;
     height: 400px;
 }
-.img-container .butter{
+
+.butter {
     position: absolute;
     top: 50px;
     left: 250px;
     width: 200px;
     height: 200px;
-    background-color: transparent; 
+    background-color: transparent;
     animation: rotateUpDown 2s linear infinite alternate;
 }
-@keyframes zoom {
-    0% {
-        transform: scale(1); 
-    }
-    50% {
-        transform: scale(1.2); 
-    }
-    100% {
-        transform: scale(1); 
-    }
+
+.profilepic {
+    border: 3px solid white;
+    border-radius: 50%;
 }
-.img-container .profilepic{
-   border: 3px solid white;
-   border-radius: 50%;
-}
-.text-container{
+
+.text-container {
     width: 400px;
     height: 400px;
 }
-.text-container h2{
+
+.text-container h2 {
     font-size: 40px;
     color: #EFCC18;
 }
-.text-container .description{
+
+.description {
     margin-top: 10px;
     font-size: 16px;
 }
-.inner-box{
+
+.inner-box {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -55,69 +51,61 @@
     margin-top: 20px;
     text-align: center;
 }
-.inner-box .inner-1{
+
+.inner-1 {
     border: 2px solid #EFCC18;
-    width: 200px;
-    height: 60px;
-    padding: 10px;
-    border-radius: 10px;
-}
-.inner-box .inner-1 h3{
-    font-size: 25px;
+    width: 160px;
+    padding: 15px 10px;
 }
 
+.num {
+    font-size: 30px;
+}
 
-@media(min-width:300px) and (max-width:500px){
-    .about-container{
-        width: fit-content;
-        padding: 10px 45px;
-        height: 140vh;
-        display: flex;
+@media (max-width: 500px) {
+    .about-container {
+        flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0 15px;
+        gap: 0;
+        margin-top: 0;
+        margin-bottom: 240px;
+        text-align: center;
+        height: fit-content;
     }
-    .img-container{
-        width: 200px;
+
+    .img-container {
+        padding: 0 0px;
+        margin: 0;
+        width: 400px;
         height: 200px;
+        display: none;
     }
-    .profilepic{
-        width: 200px;
-        height: 200px;
+
+    .butter {
+        display: none;
     }
-   
-    .img-container .butter{
-        position: absolute;
-        top: -40px;
-        left: 21px;
-        width: 100px;
-        height: 100px;
-        background-color: transparent; 
-        animation: rotateUpDown 2s linear infinite alternate;
-    }
-    .text-container{
-        width: 450px;
-        height: 500px;
+
+    .text-container {
+        width: 400px;
+        padding: 0 120px;
     }
     .text-container h2{
-        font-size: 60px;
-        color: #EFCC18;
+        margin-left: -60px;
+        padding: 0;
     }
-    .text-container .description{
-        margin-top: 10px;
-        font-size: 30px;
+
+    .inner-box {
+        flex-direction: column;
     }
-    .inner-box{
-        margin-top: 30px;
+    .inner-1 {
+        /* border: 2px solid #EFCC18; */
+        width: 280px;
+        /* padding: 15px 10px; */
     }
-    .inner-box .inner-1{
-        border: 3px solid #EFCC18;
-        width: 200px;
-        height: 60px;
-        padding: 10px;
-        border-radius: 10px;
-    }
-    .inner-box .inner-1 h3{
-        font-size: 35px;
+    .description{
+        padding: 0 70px 0px 0px;
     }
 }
-
-

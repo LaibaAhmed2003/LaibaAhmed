@@ -1,40 +1,46 @@
-/* Hero css here */
-.hero-container{
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
     height: 90vh;
+    margin-top: 300px;
 }
-.prof-img{
+
+.prof-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-.span{
+
+.span {
     background: linear-gradient(270deg, #EFCC18 10%, orange 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hero-headline{
+
+.hero-headline {
     padding: 10px 0px;
     font-size: 40px;
     text-align: center;
 }
-.text-p{
+
+.text-p {
     text-align: center;
     padding: 10px 0px;
 }
-.hero-btns{
+
+.hero-btns {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.resumebtn{
+
+.resumebtn {
     padding: 12px 30px;
     border-radius: 20px;
     border: 2px solid white;
@@ -46,15 +52,15 @@
     position: absolute;
     bottom: 0;
     right: 10px;
-    animation: rotateUpDown 2s linear infinite alternate; /* Adjust the duration (5s) and animation type as needed */
+    animation: rotateUpDown 2s linear infinite alternate;
 }
 
 @keyframes rotateUpDown {
     0% {
-        transform: translateY(0); /* Start position */
+        transform: translateY(0);
     }
     100% {
-        transform: translateY(-20px); /* End position */
+        transform: translateY(-20px);
     }
 }
 
@@ -67,117 +73,112 @@
     align-items: center;
     justify-content: center;
 }
-.arrow{
+
+.arrow {
     font-size: 15px;
 }
 
-.react-icon{
-    /* position: absolute;
-    top: 500px;
-    left: 800px; */
+.react-icon {
     font-size: 50px;
-    background-color: transparent; 
+    background-color: transparent;
     width: 50px;
     height: 50px;
     margin-top: 220px;
 }
-.figma-icon{
-    /* position: absolute;
-    top: 80px;
-    left: 500px; */
+
+.figma-icon {
     font-size: 50px;
     background-color: transparent;
     margin-top: -30px;
 }
-.node-icon{
+
+.node-icon {
     position: absolute;
     top: 500px;
     right: 150px;
     font-size: 50px;
 }
-.wordpress-icon{
+
+.wordpress-icon {
     position: absolute;
     left: 100px;
     top: 320px;
     font-size: 50px;
 }
-.square-icon{
+
+.square-icon {
     position: absolute;
     top: 200px;
     right: 100px;
     font-size: 50px;
 }
 
-
-
-.react-icon,
-.figma-icon{
+.react-icon, .figma-icon {
     font-size: 50px;
-    /* animation: rotate 10s linear infinite; */
 }
+
 @keyframes zoom {
     0% {
-        transform: scale(1); /* Initial size */
+        transform: scale(1);
     }
     50% {
-        transform: scale(1.2); /* Zoom in */
+        transform: scale(1.2);
     }
     100% {
-        transform: scale(1); /* Zoom out */
+        transform: scale(1);
     }
 }
 
 .node-icon, .wordpress-icon, .square-icon {
     font-size: 55px;
-    /* animation: zoom 5s ease-in-out infinite; */
     animation: rotateUpDown 2s linear infinite alternate;
 }
 
-
-
-
-@media(min-width:300px) and (max-width:500px){
-    .hero-container{
+@media (max-width: 500px) {
+    .hero-container {
         padding: 300px 10px;
-        width: 200%;
-        display: flex;
-        align-items: center;
+        width: 100%;
+        height: 100px;
+        /* margin-bottom: 40px; */
+        margin-top: 10px;
+        margin-left: -15px;
     }
-    .prof-img{
-        width: 280px;
-        height: 280px;
-        border-radius: 50%;
+
+    .prof-img {
+        width: 200px;
+        height: 200px;
     }
-    .downcircle{
+
+    .downcircle {
         display: none;
     }
-    .icons{
+
+    .icons {
         display: none;
     }
-    .hero-headline{
+
+    .hero-headline {
         padding: 10px 0px;
-        font-size: 60px;
-        text-align: center;
+        font-size: 30px;
     }
-    .text-p{
-        text-align: center;
+
+    .text-p {
         padding: 10px 30px;
-        font-size: 30px;
+        font-size: 18px;
     }
-    .hero-btns .connectbtn{
+
+    .hero-btns .connectbtn {
         display: block;
-        padding: 12px 30px;
-        font-size: 30px;
+        padding: 12px 20px;
+        font-size: 15px;
         border-radius: 35px;
         border: 3px solid #EFCC18;
-
     }
-    .resumebtn{
-        padding: 12px 30px;
+
+    .resumebtn {
+        padding: 12px 20px;
         border-radius: 35px;
         border: 3px solid white;
-        color: white;
-        cursor: pointer;
-        font-size: 30px;
+        font-size: 15px;
     }
 }
