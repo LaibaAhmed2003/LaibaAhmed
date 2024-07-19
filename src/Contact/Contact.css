@@ -6,6 +6,7 @@
     gap: 20px;
     text-align: center;
     height: 80vh;
+    width: 100%;
 }
 
 .heading {
@@ -44,7 +45,20 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
+.contact-content h3{
+    font-size: 60px;
+    color: #EFCC18;
+}
 
+.contact-content{
+    width: 100%;
+    height: fit-content;
+
+}
+.contact-content .calendly{
+    width: 100%;
+    overflow: hidden;
+}
 @media (max-width: 500px) {
     .Contact-container{
         padding: 0px 61px 0px 128px;
@@ -70,6 +84,11 @@ textarea {
     }
     .contact-img img{
         width: 400px;
+    }
+    .calendly{
+        height: 800px;
+        width: 330px;
+
     }
 }
 

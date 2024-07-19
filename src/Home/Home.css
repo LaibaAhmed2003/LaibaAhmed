@@ -1,4 +1,7 @@
 /* Home css file */
-*{
-    /* overflow-x: hidden; */
+@media(min-width:300px) and (max-width:500px){
+    .Home-container{
+        overflow: hidden;
+    }
 }
+

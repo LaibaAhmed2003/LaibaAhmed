@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-content">
         <h3>Let's Chat</h3>
         <p>I would love to learn about your project.</p>
-        <CalendlySection />
+        <CalendlySection className="Calendly" />
         {/* <div className="contact-inner">
           <p>
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />

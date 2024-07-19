@@ -5,10 +5,11 @@ import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
 import Contact from "../Contact/Contact";
 import Copy from "../copyrightfooter/Copyr";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home-container">
       <Hero />
       <About />
       <Experience />

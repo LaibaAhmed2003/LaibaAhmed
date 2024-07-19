@@ -7,7 +7,6 @@ const CalendlySection = () => {
       <InlineWidget
         url="https://calendly.com/laiba-sabahat9/15-min?month=2024-07"
         className="calendly-widget"
-        styles={{ height: "800px", width: "330px" }}
       />
     </div>
   );

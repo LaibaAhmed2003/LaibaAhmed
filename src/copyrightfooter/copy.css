@@ -3,9 +3,14 @@
     background-color: #EFCC18;
     margin-top: 80px;
     padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+
 }
 .copy-container p{
     background-color: transparent;
+
 }
 
 @media(min-width:300px) and (max-width:500px){
@@ -13,7 +18,7 @@
     text-align: center;
     background-color: #EFCC18;
     margin-top: 80px;
-    padding: 20px;
-    width: 100%;
+    /* padding: 20px; */
+    width: 320px;
     }
 }

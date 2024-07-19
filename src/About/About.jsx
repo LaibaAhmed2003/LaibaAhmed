@@ -10,7 +10,7 @@ const About = () => {
         <img src={profile} alt="Profile-image" className="profilepic" />
       </div>
       <div className="text-container">
-        <h2>What do I help?</h2>
+        <h2>How I help?</h2>
         <p className="description">
           Hi! I'm Laiba Ahmed, a software engineer from Lahore, Pakistan.
           <br />
