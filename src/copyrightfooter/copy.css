@@ -15,10 +15,10 @@
 
 @media(min-width:300px) and (max-width:500px){
     .copy-container{
-    text-align: center;
+    text-align: left;
     background-color: #EFCC18;
     margin-top: 80px;
     /* padding: 20px; */
-    width: 320px;
+    width: 430px;
     }
 }

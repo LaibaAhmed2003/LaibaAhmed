@@ -61,11 +61,15 @@ textarea {
 }
 @media (max-width: 500px) {
     .Contact-container{
-        padding: 0px 61px 0px 128px;
+        /* padding: 0px 61px 0px 128px; */
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         height: 100vh;
+        /* margin-left: -70px; */
+        margin-left: 30px;
+        margin-top: -130px;
+        margin-bottom: 0;
     }
     .contact-content{
         width: 400px;
@@ -86,7 +90,7 @@ textarea {
         width: 400px;
     }
     .calendly{
-        height: 800px;
+        height: 100%;
         width: 330px;
 
     }
